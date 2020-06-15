@@ -12,7 +12,7 @@ class Ship(Sprite):
         self.screen = screen
         self.ai_settings = ai_settings
 
-        self.image = pygame.image.load('alien-invasion-prj/src/picture3.png')
+        self.image = pygame.image.load('alien-invasion-prj/src/alien.bmp')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
         self.rect.centerx = self.screen_rect.centerx
